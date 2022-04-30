@@ -24,7 +24,7 @@ export default function Table() {
                 className={`whitespace-nowrap py-[10px] px-4 text-[13px] font-medium ${item.className}`}
               >
                 <div
-                  className={`flex items-center ${
+                  className={`flex flex-1 items-center ${
                     item.align === 'right'
                       ? 'justify-end'
                       : item.align === 'center'
@@ -57,7 +57,7 @@ export default function Table() {
                   className={`py-5 px-4 text-base font-normal ${header.className}`}
                 >
                   <div
-                    className={`flex items-center ${
+                    className={`flex flex-1 items-center ${
                       header.align === 'right'
                         ? 'justify-end'
                         : header.align === 'center'
